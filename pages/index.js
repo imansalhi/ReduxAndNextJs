@@ -4,9 +4,9 @@ import Link from 'next/link'
 import { getMostFollowedUsers } from '../services/Api/axiosPack'
 
 export default function Home() {
-  // useEffect(()=>{
-  //   console.log(getMostFollowedUsers())
-  // },[])
+  useEffect(()=>{
+    // console.log(getMostFollowedUsers())
+  },[])
   return (
     <div className="container">
       <Head>
